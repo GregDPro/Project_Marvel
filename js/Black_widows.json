@@ -1,0 +1,9 @@
+const personne = {
+
+    prenom: "Julien",
+
+    image :[]
+
+};
+
+/* */
