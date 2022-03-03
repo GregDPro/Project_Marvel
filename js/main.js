@@ -35,5 +35,11 @@ const heros = [
     
         "biographie": "Thor est le fils du roi des Asgardiens Odin et de la déesse de la terre Gaea. Il est élevé par sa mère adoptive Frigga, l'épouse d'Odin. Au cours de son enfance, Thor apprend à être un guerrier et grandit en popularité parmi son peuple. Son père fait construire le marteau Mjöllnir pour lui. Lorsqu'il le reçoit, il devient le dieu nordique de la foudre et le plus grand guerrier d'Asgard.Thor a de nombreuses aventures et commence à devenir fier. Il rompt un traité de paix avec les géants des glaces, au risque de déclencher une guerre. Pour punir l'arrogance de son fils, Odin décide que Thor a besoin d'une leçon d'humilité. Il l’envoie sur Terre (nommée Midgard par les dieux scandinaves), efface sa mémoire et l’enferme dans le corps du mortel Donald Blake, un médecin infirme et timide.",
     },
-
+    {
+        "image" : "Black_Widow.jpg",
+        "nom_hero" : "Black Widow",
+        "nom_civil": "Natasha Romanoff",
+        "equipe":["Avengers"],
+        "biographie": "Natalia Romanova, une descendante de la famille impériale de Russie, est abandonnée très jeune et recueillie par le soldat Ivan Petrovitch. Ce dernier veille sur elle jusqu'à son âge adulte et l'assiste ensuite en tant que chauffeur.Natalia se révèle être une brillante élève et une athlète exceptionnelle, excellant notamment dans la danse classique, devenant célèbre en Union soviétique comme ballerine. Elle épouse le pilote d'essai soviétique renommé Alexei Shostakov, mais leur bonheur est de courte durée.Elle est ensuite recrutée par le KGB qui pensait que les Shostakov feraient de bons agents secrets. Alors qu'Alexei part en mission, il apprend les nouveaux plans de l'État le concernant, qui excluent tout contact avec ses amis et autres connaissances passées, y compris sa propre épouse. Au cours d'un âpre entraînement dans la Chambre rouge, Shostakov est conditionné pour devenir le Garde rouge, un agent costumé devant être l'homologue soviétique de Captain America. Afin de couper les ponts avec son épouse, un officier du KGB affirme à Natalia que son mari est mort dans l'explosion d'une fusée expérimentale. Éperdue de douleur, celle-ci déclare qu'elle souhaite se montrer digne de la mémoire de son mari héroïque. Le KGB, qui avait prévu sa réaction, la forme pour devenir l'espionne connue sous le nom de Veuve noire."
+    }
 ]
