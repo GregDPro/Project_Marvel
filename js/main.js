@@ -175,6 +175,36 @@ const equipe = [
 ]
 
 const rootPersonnages = document.getElementById("root-personnages");
-heros.map(hero => {
-    document.write(hero.nom_hero);
-})
+// heros.map(hero => {
+//     document.write(hero.nom_hero);
+//     document.write(hero.nom_civil);
+//     document.write(hero.equipe);
+//     document.write(hero.biographie);
+// });
+
+heros.forEach(hero => {
+    const ficheHero = document.createElement('div')
+    ficheHero.setAttribute('class', 'ficheHero');
+
+    const nomHero = document.createElement('h1');
+    nomHero.textContent = hero.nom_hero;
+
+    const nomCivil = document.createElement('h2')
+    nomCivil.textContent = hero.nom_civil;
+
+    const nomEquipe = document.createElement('ul');
+    hero.equipe.forEach(equipe =>{
+        const li = document.createElement('li');
+        li.textContent = equipe;
+        nomEquipe.appendChild(li);
+    })
+    const biog = document.createElement('p');
+    biog.textContent = hero.biographie;
+    rootPersonnages.appendChild(ficheHero);
+    ficheHero.appendChild(nomHero);
+    ficheHero.appendChild(nomCivil);
+    ficheHero.appendChild(nomEquipe);
+    ficheHero.appendChild(biog);
+    
+}
+);
