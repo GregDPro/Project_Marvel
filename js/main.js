@@ -173,3 +173,8 @@ const equipe = [
 
     }
 ]
+
+const rootPersonnages = document.getElementById("root-personnages");
+heros.map(hero => {
+    document.write(hero.nom_hero);
+})
